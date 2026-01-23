@@ -1,1 +1,2 @@
-exportPattern("^[[:alpha:]]+")
+export(green_hist)
+export(blue_boxplot)
