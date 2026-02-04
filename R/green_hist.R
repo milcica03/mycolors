@@ -4,9 +4,6 @@
 #' @param ... Additional arguments passed to hist()
 #' @return A histogram plot in green
 #' @export
-green_hist <- function(x, ...) {
-  hist(x, col = "green", main = "Green Histogram", xlab = "Value", ...)
-}
 
 green_hist <- function(x, bins = 30, color = "green", title = "Histogram") {
   hist(x,
